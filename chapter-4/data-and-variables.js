@@ -35,11 +35,9 @@ let energyLevelAfterRevival = 0; // negative
 
 /**** PRINTING TO THE CONSOLE ****/
 
-// TODO: Experiment with using the console directly.
-
 // TODO: print a string, then print a number
 
-// TODO: Hit the Run button (big green arrow) to see the output
+// TODO: Use the command 'node data-and-variables.js' (without quotes) in the terminal to see the output
 
 
 /* FORMATTING */
