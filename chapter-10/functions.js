@@ -9,169 +9,52 @@
 	https://youtube.com/@CodeWithCarrie
 */
 
+const input = require('readline-sync');
 
-/** DEFINING YOUR OWN FUNCTIONS **/
+// TODO: After defining the function below, call it here
 
-/* Calling vs Defining */
-console.log("\nCalling vs Defining");
+// TODO: Define a function to say hello
 
-console.log(sayHello("Joe"));
-console.log(formatEmail("joe@schmo.com"));
 
-function sayHello(firstName) {
-  return `Hello, ${firstName}!`;
-}
+// TODO: Write a function that returns a string that will describe one or more enemies
+// Allow for a specific action verb
 
-function formatEmail(email) {
-  return `Email address: ${email}`;
-}
 
+// TODO :Call describeEnemies with real values (arguments) and print the return value
 
-/** INPUT: PARAMETERS & VARIABLES **/
 
-/* Parameters are Variables */
-console.log("\nParameters are Variables");
+// TODO: Store a description in a variable and then print it
 
-function formatSSN(ssn1, ssn2, ssn3) {
-  return `${ssn1}-${ssn2}-${ssn3}`;
-}
 
-// Call formatSSN with real values (arguments) and print the return value
 
+let inventory = [];
 
-/* Passing Data into a Function */
-console.log("\nPassing Data into a Function");
+// TODO: Write a function that adds an item to Link's inventory and announces it
 
-function formatDate(weekday, mm, dd, yyyy) {
-  return `${weekday}, ${mm}/${dd}/${yyyy}`;
-}
 
-// Store a formatted date in a variable and then print it
+// TODO: Add a sword and a shield to inventory, then print the inventory array
 
 
 
-/* Flexible Functions: Optional Parameters */
-console.log("\nFlexible Functions: Optional Parameters");
+// TODO: Get the player name from the user in the console
 
-function getFullName(fName, lName, title = '') {
-  let fullName = '';
-  if (title !== '') {         // or, if (title)
-    fullName += `${title} `;
-  }
-  fullName += `${fName} ${lName}`;
-  return fullName;
-}
+// TODO: Write a function to greet the player with a message that can change
 
-// Call the function twice, once with and once without using the third parameter
 
+// TODO: Call the function and pass in a message 
 
+// TODO: Check the scope of player
 
-/** OUTPUT: TO RETURN OR NOT TO RETURN? **/
+// TODO: Check the scope of message and greeting
 
-/* Making Use of Return Values */
-console.log("\nMaking Use of Return Values");
 
-function addThreeNums(num1, num2, num3) {
-  return num1 + num2 + num3;
-}
+let name = "Zelda";
 
-// Store the sum in a variable, then print it in a template literal
+// TODO: Write a function to print a sentence when you first encounter a character
+// Use a parameter, name
 
+// TODO: Call the function with the variable name as the argument
 
-// Print the returned value directly
+// TODO: Call the function with a hard-coded string
 
-// Call the function from within a template literal as you print it
-
-
-
-/* The Return Keyword is Optional */
-console.log("\nThe Return Keyword is Optional");
-
-let allPrepWork = [];
-let startedPrepWork = false;
-
-function submitPrepWork(work) {
-  allPrepWork.push(work);
-  startedPrepWork = true;
-}
-
-// Call the function and pass in 'reading'
-
-// Print the current value of startedPrepWork
-
-// Call the function again and pass in 'exercises'
-
-// Print the current value of allPrepWork
-
-
-
-/* Stopping a Function Early */
-console.log("\nStopping a Function Early");
-
-function divideNums(num1, num2) {
-  if (num2 === 0) {
-		return `To ${num1 / num2} and beyond!`;
-  }
-  return num1 / num2;
-}  
-
-// Demonstrate both regular usage and handling division by zero
-
-
-
-/** VARIABLE SCOPE **/
-
-/* Local Variables */
-console.log("\nLocal Variables");
-
-let user = "Ella";
-
-function greetUser(message) {
-  let greeting = `${message}, ${user}!`;
-  console.log(greeting); // just print, no return value
-}
-
-// Say good morning to the user
-
-// Try printing the values of user, message, and greeting
-
-
-
-/* Variable Shadowing */
-console.log("\nVariable Shadowing");
-
-let color = "black";
-
-function describeItem(item, color) {
-	console.log(`It's a ${color} ${item}!`);
-}
-
-// Call the function with the value "blue"
-
-// Print the original color variable
-
-
-/** FUNCTION COMPOSITION **/
-
-/* Composing Functions */
-console.log("\nComposing Functions");
-
-function subtotal(arr) {
-  let sum = 0;
-  for (let i=0; i < arr.length; i++) {
-    sum += arr[i];
-  }
-  return sum;
-}
-
-function getTotals(month, arr1, arr2) {
-  let div1 = subtotal(arr1);
-  let div2 = subtotal(arr2);
-  return `In the month of ${month}, Division 1 had $${div1} in earnings, while Division 2 had $${div2} in earnings. Total earnings was $${div1 + div2}.`;
-} 
-
-let earnings1 = [13056, 29430, 10230, 57283];
-let earnings2 = [20435, 62433, 19857];
-
-// Demonstrate use of getTotals() with the test data given above
-
+// TODO: Print the variable name
