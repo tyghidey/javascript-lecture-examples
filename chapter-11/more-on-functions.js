@@ -24,23 +24,23 @@ function sayHello(name) {
 	return `Hello, ${name}!`;
 }
 
-// Call the function and print the return value
+// TODO: Call the function and print the return value
 
-// Print the function reference without calling it
+// TODO: Print the function reference without calling it
 
 
 /* The Function Data Type */
 
-// Check the data type using the name reference
+// TODO: Check the data type using the name reference
 
 
 /* Creating an Alias */
 
-// Create an alias for sayHello
+// TODO: Create an alias for sayHello
 
-// Call the function using the alias and print the return value
+// TODO: Call the function using the alias and print the return value
 
-// Print the alias reference only
+// TODO: Print the alias reference only
 
 
 
@@ -48,37 +48,37 @@ function sayHello(name) {
 
 /* Storing an Anonymous Function as a Constant */
 
-// Write an anonymous function and store it as a constant below. The function should take an array of numbers and use it as a key to decode a message from Will in the Upside Down, with the letters A-Z being numbered 1-26 and a space represented as 0. Return the decoded message as a string.
+// TODO: Write an anonymous function and store it as a constant below. The function should take an array of numbers and use it as a key to decode a message from Will in the Upside Down, with the letters A-Z being numbered 1-26 and a space represented as 0. Return the decoded message as a string.
 
 // Test data
 let msg1 = [18, 9, 7, 8, 20, 0, 8, 5, 18, 5];
 let msg2 = [18, 21, 14];
 
-// Decode and print each message
+// TODO: Decode and print each message
 
 
 
 /** HIGHER-ORDER FUNCTIONS **/
 
-// Write a named, higher-order function called processEach that takes two parameters: an array and a function. It should loop through the array and execute the function for each element of the array. (We are writing our own version of JavaScript's built-in array method .forEach())
+// TODO: Write a named, higher-order function called processEach that takes two parameters: an array and a function. It should loop through the array and execute the function for each element of the array. (We are writing our own version of JavaScript's built-in array method .forEach())
 
 
 /* Using an Existing Function as an Argument */
 
-// Write a function that will convert a number into a string that has a length of exactly 3, with leading zeros if the number is less than 3 digits long. The function should simply print the string and does not need a return value.
+// TODO: Write a function that will convert a number into a string that has a length of exactly 3, with leading zeros if the number is less than 3 digits long. The function should simply print the string and does not need a return value.
 
 
 // Test data
 let indigoSubjects = [1, 3, 4, 7, 8, 10, 11, 13, 15, 18];
 
-// Call the higher-order function and pass in the test array with the new function (by name reference) to have it print a line for every element in the array.
+// TODO: Call the higher-order function and pass in the test array with the new function (by name reference) to have it print a line for every element in the array.
 
 
 /* Providing an Anonymous Function as an Argument */
 
 let hellfireClub = ["Eddie", "Gareth", "Jeff", "Mike", "Dustin", "Lucas", "Erica"];
 
-// Call the higher-order function again, but this time write an anonymous function in place that prints "_____ is a member of the Hellfire Club!" for each element in the array above... unless that person is Erica, in which case it should say "Lady Applejack, the MOST BADASS member" instead of "a member".
+// TODO: Call the higher-order function again, but this time write an anonymous function in place that prints "_____ is a member of the Hellfire Club!" for each element in the array above... unless that person is Erica, in which case it should say "Lady Applejack, the MOST BADASS member" instead of "a member".
 
 
 
@@ -99,14 +99,14 @@ function linearFactorial(n) {
 console.log(linearFactorial(15));
 
 
-// Write a recursive function to solve a factorial
+// TODO: Write a recursive function to solve a factorial
 
 
 
-// Call the function to test it and print the result
+// TODO: Call the function to test it and print the result
 
 
-// Go back and use the Console API's .time() and .timeEnd() methods to clock the speed of code execution for both the linear and recursive functions
+// TODO: Go back and use the Console API's .time() and .timeEnd() methods to clock the speed of code execution for both the linear and recursive functions
 
 
 /* Working through Complex Data */
@@ -120,7 +120,7 @@ let hawkinsLab = [
 	[7, [9, 4], 11]
 ];
 
-// Write a recursive function to count up the number of demodogs chasing everyone down in the Hawkins National Laboratory (RIP Bob) 
+// TODO: Write a recursive function to count up the number of demodogs chasing everyone down in the Hawkins National Laboratory (RIP Bob) 
 
 /*
 	Plan it out:
@@ -135,4 +135,4 @@ let hawkinsLab = [
 // Define the function
 
 
-// Call the function with the test data
+// TODO: Call the function with the test data
