@@ -1,5 +1,5 @@
-// Import from funcs.js
-const funcs = require("./funcs");
+// TODO: Import from funcs.js
+
 
 
 /** TRY OUT INDIVIDUAL FUNCTIONS **/

@@ -75,8 +75,3 @@ const morseMap = {
 */
 
 // TODO: Export all three functions
-module.exports = {
-	translateChar: translateChar,
-	translateWord: translateWord,
-	translateAll: translateAll
-}
