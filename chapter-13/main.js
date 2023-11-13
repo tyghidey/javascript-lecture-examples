@@ -2,7 +2,7 @@
 // WEBDEV UNIT 1, CHAPTER 13: MODULES
 
 /* 
-	This is the SOLUTION CODE. Switch back to the main branch to use the starter code.
+	This is the STARTER CODE. Use this to code along with the lecture recording or just practice. You can switch to the solution branch if you want to reference the final code.
 
 	If Carrie is your primary instructor, 
   you can locate the YouTube playlist for your cohort here:
