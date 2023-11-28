@@ -1,0 +1,90 @@
+/* 
+  LECTURE EXAMPLES
+  WEBDEV UNIT 1, CHAPTER 21: CSS
+
+  This is the STARTER CODE. Switch to the solution branch to see the final result.
+
+  If Carrie is your primary instructor, 
+  you can locate the YouTube playlist for your cohort here:
+  https://youtube.com/@CodeWithCarrie
+*/
+
+/* TODO: Add CSS for the body — change the font family */
+/* TODO: Change the width, padding, margin, and box-sizing */
+/* TODO: Change the background to use the blossom image, fixed */
+
+
+/* TODO: Set the background of header and footer to dark green and text color to white */
+/* TODO: Set the padding to 30px for left and right and 10px for top and bottom */
+
+
+/* TODO: Set the background of main to white */
+/* TODO: Set the padding to 30px on all sides */
+
+
+/* TODO: Change the font family to a cursive script for h1 and increase the font size */
+/* TODO: Adjust the top and bottom margins */
+
+
+/* TODO: Change the font weight of h2 to lighter and font size to 1.2rem */
+/* TODO: Make it all uppercase and increase letter spacing */
+/* TODO: Set top and bottom margin to 10px; */
+
+
+/* TODO: Apply a background color, color, font size and padding to h3 */
+
+
+/* TODO: Apply a gradient background to h4 and make it bold and uppercase with some padding */
+
+
+/* TODO: Alter the margins on h3 and h4 */
+
+
+/* TODO: Change the bullet points to squares */
+
+
+/* TODO: Set the font color for the table */
+
+
+/* TODO: Give th text center alignment, consistent width, and padding */
+
+
+/* TODO: Set consistent height for td */
+
+
+/* TODO: Set background colors for every other table row */
+
+
+/* TODO: Change styling of em */
+
+
+/* TODO: Change styling of a */
+
+
+/* TODO: Create a class to selectively add a bottom margin as needed */
+
+
+/* TODO: Create a class to bump up font size to 1.2rem */
+
+
+/* TODO: Set class for special block with various styling and animation */
+
+
+@keyframes color-change {
+  0% {
+    color: darkmagenta;
+    outline-color: darkgreen;
+  }
+  33% {
+    color: darkorange;
+    outline-color: darkblue;
+  }
+  67% {
+    color: darkcyan;
+    outline-color: darkred;
+  }
+  100% {
+    color: darkmagenta;
+    outline-color: darkgreen;
+  }
+}
