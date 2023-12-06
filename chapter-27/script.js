@@ -13,9 +13,7 @@ window.addEventListener('load', function () {
     // Use the API documentation to look up the correct endpoint for a random photo
     if (event.target.id === 'dog-button') {
       
-      // TODO: Fetch data
-
-      // TODO: Put image on page
+      // TODO: Fetch data with traditional fetch syntax & put image on page
 
     }
 
