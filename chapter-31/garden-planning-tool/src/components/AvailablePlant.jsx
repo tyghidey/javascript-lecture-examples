@@ -1,11 +1,11 @@
 import { capitalize } from '../shared/utils';
 
 const AvailablePlant = props => {
-  // TODO: Destructure additional props to receive handlers from Main
+  // TODO #12: Destructure additional props to receive handlers from Main
   let { name, color, image, numAvailable } = props.plant;
 
-  // TODO: Simplify by placing anonymous functions on icons
-  // to call handlers passed down via props
+  // TODO #13: Simplify by removing these and placing anonymous functions 
+  // on icons to call handlers passed down via props
   const handleReturnPlant = () => {
     console.log(`This button will return 1 ${color} ${name}.`);
   };
@@ -14,7 +14,7 @@ const AvailablePlant = props => {
     console.log(`This button will allocate 1 ${color} ${name}.`);
   };
 
-  // TODO: Add conditional unavailable class when no more plants available to allocate
+  // TODO #22: Add conditional unavailable class when no more plants available to allocate
   return (
     <div className="card available-plant-card">
       <div className="img-txt-combo">
