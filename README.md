@@ -7,4 +7,4 @@ Because this is a work in progress, you may occasionally need to merge in change
 
 ---
 NOTE:
-Currently all code in this branch is being added during October-December 2023 with the switch to the [new curriculum](https://education.launchcode.org/intro-to-web-dev-curriculum/) and it may not be consistent with older lectures based in the [old curriculum](https://education.launchcode.org/intro-to-professional-web-dev/index.html) when Replit was still in use.
+All code in this repo was added beginning in October 2023 with the switch to the [new curriculum](https://education.launchcode.org/intro-to-web-dev-curriculum/) and it may not be consistent with older lectures based in the [old curriculum](https://education.launchcode.org/intro-to-professional-web-dev/index.html) when Replit was still in use.

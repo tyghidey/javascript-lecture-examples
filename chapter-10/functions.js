@@ -1,13 +1,6 @@
 // LECTURE EXAMPLES
 // WEBDEV UNIT 1, CHAPTER 10: FUNCTIONS
 
-/* 
-	This is the STARTER CODE. Use this to code along with the lecture recording or just practice. You can switch to the solution branch if you want to reference the final code.
-
-	If Carrie is your primary instructor, 
-  you can locate the YouTube playlist for your cohort here:
-	https://youtube.com/@CodeWithCarrie
-*/
 
 const input = require('readline-sync');
 

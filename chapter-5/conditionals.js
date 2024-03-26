@@ -1,14 +1,6 @@
 // LECTURE EXAMPLES
 // WEBDEV UNIT 1, CHAPTER 5: CONDITIONALS
 
-/* 
-	This is the STARTER CODE. Use this to code along with the lecture recording or just practice. You can switch to the solution branch if you want to reference the final code.
-
-	If Carrie is your primary instructor, 
-  you can locate the YouTube playlist for your cohort here:
-	https://youtube.com/@CodeWithCarrie
-*/
-
 
 /** THE BOOLEAN DATA TYPE **/
 console.log("\nThe Boolean Data Type");

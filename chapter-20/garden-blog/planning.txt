@@ -1,12 +1,6 @@
 LECTURE EXAMPLES
 WEBDEV UNIT 1, CHAPTER 18: CLASSES
 
-This is the SOLUTION CODE. Switch back to the main branch to use the starter code.
-
-If Carrie is your primary instructor, 
-you can locate the YouTube playlist for your cohort here:
-https://youtube.com/@CodeWithCarrie
-
 
 It's helpful to plan out your page. What kind of content, images, links, etc. will you need?
 
