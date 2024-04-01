@@ -18,7 +18,7 @@ console.log("\nIncrementing the Iterator");
 console.log("\nIterating over Characters of a String");
 
 // Print each character one at a time
-let obiGreeting = "Hello there";
+let obiWanGreeting = "Hello there";
 
 
 
