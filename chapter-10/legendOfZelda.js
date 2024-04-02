@@ -11,6 +11,9 @@ let currHearts = 3;
 let inventory = [];
 let rupees = 0;
 
+// Reusable formatted text
+let line = "-".repeat(80);
+
 // Conversations with NPCs
 let swordMsg = `"It's dangerous to go alone! Take this."`;
 let shopMsg = `"Buy somethin' will ya!"
