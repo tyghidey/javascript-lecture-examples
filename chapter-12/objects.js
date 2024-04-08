@@ -171,3 +171,11 @@ let ragetti = {
 // TODO: Print the new array
 
 // TODO: Print the names and positions of all members in motleyCrew
+
+
+/** Random Selection **/
+
+// TODO: Write a function that will choose a random number
+
+
+// TODO: Write a function that will return a random member of the motleyCrew for swabbing the deck
