@@ -1,11 +1,11 @@
-const contact = {
-	name: "The LaunchCode Foundation",
-	address1: "4811 Delmar Boulevard",
-	address2: "Saint Louis, MO 63108",
-	email: "info@launchcode.org",
-	phone: "(314) 254-0107",
-	website: "www.launchcode.org"
-}
+const contact = frontOrg = {
+	name: "ACME Corporation",
+	address1: "555 Main Street",
+	address2: "Saint Louis, MO 63101",
+	email: "info@acme.com",
+	phone: "(314) 555-ACME",
+	website: "www.acme.com"
+};
 
 const businessHours = {
 	Sunday:	"Closed",
@@ -15,7 +15,7 @@ const businessHours = {
 	Thursday: "9AM–5PM",
 	Friday: "9AM–5PM",
 	Saturday: "Closed"
-}
+};
 
 function formatBusinessHours() {
 	let hours = "Open for Business:\n\n";
@@ -29,7 +29,7 @@ function formatBusinessHours() {
 
 function printOrgInfo() {
 	console.log(`
-Thank you for your interest in LaunchCode! To learn more about our programs, visit our website:
+Thank you for your interest in ACME! To learn more about our company, visit our website:
 ${contact.website}.
 	
 ${contact.name}
