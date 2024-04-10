@@ -4,7 +4,7 @@
 /** UNIT TESTING **/
 
 /*
-	Write a test for the msPerYear variable. It should be exactly 31557600000.
+	Write a test for the MS_PER_YEAR constant. It should be exactly 31557600000.
 */
 
 // TODO: Create a describe block for the variable, then write a specification inside it
@@ -41,12 +41,12 @@
 */
 
 // TODO: Test data — will need to be moved into a beforeEach() function 
-let cap = {
-	fullName: "Steve Rogers",
-	nickname: "Cap",
-	age: Math.round((new Date() - new Date(1918, 7, 4)) / msPerYear),
-	catchphrases: ["I could do this all day.", "Language!"]
-};
+// let cap = {
+// 	fullName: "Steve Rogers",
+// 	nickname: "Cap",
+// 	age: Math.round((new Date() - new Date(1918, 7, 4)) / examples.MS_PER_YEAR),
+// 	catchphrases: ["I could do this all day.", "Language!"]
+// };
 
 
 // TODO: Write a describe block for the isAlphaOnly function	

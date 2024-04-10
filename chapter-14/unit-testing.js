@@ -3,9 +3,9 @@
 
 
 /* 
-	In the corresponding spec file, write a test for the msPerYear below.
+	In the corresponding spec file, write a test for the MS_PER_YEAR constant below.
 */
-let msPerYear = 1000 * 60 * 60 * 24 * 365.25;
+const MS_PER_YEAR = 1000 * 60 * 60 * 24 * 365.25;
 
 
 /* 
@@ -15,7 +15,7 @@ let bucky = {
 	fullName: "James Buchanan Barnes",
 	nickname: "The Winter Soldier",
 	triggerWords: ["Longing", "rusted", "furnace", "daybreak", "seventeen", "benign", "nine", "homecoming", "one", "freight car"],
-	age: Math.round((new Date() - new Date(1917, 10, 3)) / msPerYear),
+	age: Math.round((new Date() - new Date(1917, 10, 3)) / MS_PER_YEAR),
 	isHydraAgent: true
 };
 
