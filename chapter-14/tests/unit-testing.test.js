@@ -7,7 +7,7 @@
 	Write a test for the MS_PER_YEAR constant. It should be exactly 31557600000.
 */
 
-// TODO: Create a describe block for the variable, then write a specification inside it
+// TODO: Create a describe block for the constant, then write a specification inside it
 
 
 /*
@@ -16,7 +16,7 @@
 
 // TODO: Create a describe block for the entire object
 
-	// TODO: Write each specification as an it block inside the describe block
+	// TODO: Write each specification as a test block inside the describe block
 	
 	// TODO: Test the value of fullName
 
