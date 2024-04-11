@@ -65,5 +65,3 @@
 	// TODO: Write a test for empty string (not allowed)
 
 	// TODO: Write a test for non-string types (not allowed)
-
-	// TODO: Write a test for null value
