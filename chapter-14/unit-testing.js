@@ -15,7 +15,7 @@ let bucky = {
 	fullName: "James Buchanan Barnes",
 	nickname: "The Winter Soldier",
 	triggerWords: ["Longing", "rusted", "furnace", "daybreak", "seventeen", "benign", "nine", "homecoming", "one", "freight car"],
-	age: Math.round((new Date() - new Date(1917, 10, 3)) / MS_PER_YEAR),
+	calculateAge: function () { return Math.round((new Date() - new Date(1917, 10, 3)) / MS_PER_YEAR) },
 	isHydraAgent: true
 };
 

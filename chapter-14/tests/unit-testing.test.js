@@ -27,7 +27,7 @@
 	// TODO: Test that triggerWords includes "longing", "daybreak", and "homecoming"
 
 
-	// TODO: Test that the age property is greater than 100
+	// TODO: Test that the age method returns a number greater than 100 and less than 120
 
 
 	// TODO: Test that Bucky is no longer a Hydra agent
@@ -44,7 +44,7 @@
 // let cap = {
 // 	fullName: "Steve Rogers",
 // 	nickname: "Cap",
-// 	age: Math.round((new Date() - new Date(1918, 7, 4)) / examples.MS_PER_YEAR),
+// 	calculateAge: function () { return Math.round((new Date() - new Date(1918, 7, 4)) / examples.MS_PER_YEAR) },
 // 	catchphrases: ["I could do this all day.", "Language!"]
 // };
 
@@ -62,8 +62,8 @@
 
 	
 	// EDGE CASES
-	// TODO: Write a test for ONLY spaces (no other characters)
-
 	// TODO: Write a test for empty string (not allowed)
+
+	// TODO: Write a test for ONLY spaces (no other characters)
 
 	// TODO: Write a test for non-string types (not allowed)
