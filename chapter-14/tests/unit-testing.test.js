@@ -52,7 +52,9 @@
 // TODO: Write a describe block for the isAlphaOnly function	
 
 	// POSITIVE CASES
-	// TODO: Write a test for nickname
+	// TODO: Write a test for all alpha using nickname
+
+  // TODO: Write a test for all alpha with spaces using fullName
 
 	
 	// NEGATIVE CASES
@@ -60,7 +62,7 @@
 
 	
 	// EDGE CASES
-	// TODO: Write a test for spaces (is allowed)
+	// TODO: Write a test for ONLY spaces (no other characters)
 
 	// TODO: Write a test for empty string (not allowed)
 
