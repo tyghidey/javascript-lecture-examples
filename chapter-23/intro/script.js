@@ -1,6 +1,10 @@
 window.addEventListener('load', function() {  
 
   // TODO: Take a look at native global objects, window and document
+    
+  // TODO: Use window.alert()
+
+  // TODO: Use confirm() - without appending to window 
   
   
   const intro = document.getElementById('intro');
