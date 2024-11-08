@@ -9,20 +9,21 @@
 // TODO: Change the values for each string
 // Remember that quotes within a quote require using single quotes
 let emptyString = ""; // no characters
-let space = ""; // space only
-let zeeOrZed = ""; // single letter
-let farmBoy = ""; // single word
-let manInBlack = ""; // multiple words
-let memorableQuote = ''; // quotes inside quotes
-let rottenTomatoesScore = ""; // numbers, but as a string
+let space = " "; // space only
+let zeeOrZed = "z"; // single letter
+let farmBoy = "Westley"; // single word
+let manInBlack = "Dread Pirate Roberts"; // multiple words
+let memorableQuote = 'Inigo said, "Hello, My name is....."'; // quotes inside quotes
+let rottenTomatoesScore = "97"; // numbers, but as a string
 
+console.log(memorableQuote);
 
 /* THE NUMBER */
 
 // TODO: Change the values for each number
-let numberOfOutlaws = 0; // integer
-let mostlyDead = 0; // decimal
-let energyLevelAfterRevival = 0; // negative
+let numberOfOutlaws = 3; // integer
+let mostlyDead = 0.985; // decimal
+let energyLevelAfterRevival = -86; // negative
 
 
 /**** PRINTING TO THE CONSOLE ****/
@@ -36,47 +37,65 @@ let energyLevelAfterRevival = 0; // negative
 
 // TODO: Add newline and tag characters to format an indented list
 // Un-comment the next line before running the program again
-// console.log('Fezzik & Inigo: "That Vizzini, he can fuss." "I think he like to scream at us." "Probably he means no harm." "He\'s really very short on charm."');
+console.log('\nFezzik & Inigo: \n\t"That Vizzini, he can fuss." \n\t"I think he like to scream at us." \n\t"Probably he means no harm." \n\t"He\'s really very short on charm."');
 
 /**** DETECTING TYPES & CONVERTING DATA ****/
 
 /* DETECTING TYPES */
 
 // TODO: Print the type of a string of characters to the console
-
+console.log(typeof "ROUS");
 // TODO: Print the type of a negative number to the console
-
+console.log(typeof -2);
 
 /* CONVERTING DATA */
 
 // TODO: Convert 4 to a string and print the result, then verify the type
+console.log(String(4));
+console.log(typeof  String(4));
 
 // TODO: Convert "10000" to a number and print the result, then check the type
 
-// TODO: Try to convert "Humperdinck" to a number and print the result, then check the type
+console.log(Number("10000"));
+console.log(typeof Number("10000"));
 
+// TODO: Try to convert "Humperdinck" to a number and print the result, then check the type
+console.log(Number("Humperdinck"));
+console.log(typeof Number("Humperdinck"));
 
 /**** THE VARIABLE ****/
 
 // TODO: Declare & initialize a string variable, then print it
+let vizziniPhrase = "Inconceivable!";
+console.log(vizziniPhrase);
 
 // TODO: Declare & initialize a number variable, then print it
+let numberOfTimesSpoken = 3;
+console.log(numberOfTimesSpoken);
 
 // TODO: Give the newest variable a new value, then print it
+numberOfTimesSpoken = 5;
+console.log(numberOfTimesSpoken);
 
 // TODO: Declare another variable and then print before initializing:
+let inigoResponse;
+console.log(inigoResponse); // gives us undefined
 
 // TODO: Initialize the variable, then print it again:
-
+inigoResponse = "You keep using that word. I do not think it means what you think it means.";
+console.log(inigoResponse);
 
 /**** THE CONSTANT ****/
 
 // TODO: Declare and initialize a constant
 // Use the allcaps underscore naming convention
+const MOVIE_TITLE = "The Princess Bride"; 
+console.log(MOVIE_TITLE);
 
 // TODO: Try to assign a new value to the constant. 
 // What happens when you run the program?
-
+//MOVIE_TITLE = "Some other title"; --> not allowed will cause error
+console.log(MOVIE_TITLE);
 // Comment out the line so we won't keep seeing the error
 
 
@@ -91,7 +110,11 @@ let books = 10;
 
 // TODO: Declare new variables for the values above
 // They should be descriptive, specific and obvious about data type
-
+let bookTitle = 'The Princess Bride: S. Morgenstern\'s Classic Tale of True Love and High Adventure, The "Good Parts" Version';
+let bookAuthor = "William Goldman";
+let bookGenre = "adventure";
+let bookFormat = "hardcover";
+let numCopiesAvailable = 10;
 
 /**** EVALUATING EXPRESSIONS WITH OPERATORS ****/
 
