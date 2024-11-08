@@ -123,10 +123,14 @@ let numCopiesAvailable = 10;
 let a = 7;
 let b = 2;
 // TODO: Print the difference between a and b using the arithmetic operator for subtraction
+console.log(a - b);
 
 let m = 7
 // TODO: Print m to the 4th power using the exponentiation operator
 // In this case, create a variable to store the result, then print the variable name
+
+let mToTheFourthPower = m **4;
+console.log(mToTheFourthPower);
 
 
 /* INCREMENT & DECREMENT */
@@ -137,6 +141,10 @@ let x = 5;
 // TODO: Print x++, then print x, then print ++x
 // Try to guess the values that will result with each console.log()
 
+console.log(x++);
+console.log(x);
+console.log(++x);
+
 // TODO: Increment x one more time without printing it, then print x on the next line
 
 // Decrementing
@@ -144,6 +152,10 @@ let y = 19;
 
 // TODO: Print y--, then print y, then print y--
 // Try to guess the values that will result with each console.log()
+
+console.log(y--);
+console.log(y);
+console.log(y--);
 
 // TODO: Decrement y one more time without printing it, then print y on the next line
 
@@ -153,14 +165,17 @@ let y = 19;
 // TODO: Print the remainder from 100 with a modulus of 7
 // 7 * 14 = 98, so we expect the value to be 2
 
+console.log(100 % 7);
+
 // TODO: Print the remainder from 6 with a modulus of 2
 // 2 * 3 = 6, so we expect the value to be 0
 
+console.log( 6 % 2);
 
 /* ORDER OF OPERATIONS */
 
 // TODO: un-comment the line below and run the program to verify the result is 42
-// console.log(8 * (2 + 2**2) - 36 / (14 - 2**3));
+console.log(8 * (2 + 2**2) - 36 / (14 - 2**3));
 
 
 /* STRING BUILDING */
@@ -169,16 +184,20 @@ let titleAfterMawage = "Princess";
 let originalName = "Buttercup";
 
 // TODO: Print the title and name together
+console.log(titleAfterMawage + " " + originalName);
 
 // TODO: What happens if you have a mix of strings and numbers? Try it out.
-
+let numberOfShips = 4;
+console.log("You write " + numberOfShips + " copies of a letter. I'll send my " + numberOfShips + " fastest ships, one in each direction.");
 
 /* COMPOUND ASSIGNMENT */
 
 let numberOfBoos = 3;
 
 // TODO: After Buttercup asks the Ancient Woman why she is booing her, she booed 5 more times. Increase the value of the variable, then print it.
-
+numberOfBoos = 3;
+numberOfBoos += 5;
+console.log(numberOfBoos);
 
 
 /**** GETTING USER INPUT ****/
@@ -188,11 +207,15 @@ let numberOfBoos = 3;
 // TODO: Import the readline-sync library as the constant input
 // Normally this would go at the top of the file
 
+const input = require( 'readline-sync');
+
 // TODO: Print a greeting to the user
+console.log("Welcome to the fan club");
 
 // TODO: Ask the user for a name and store it in a variable
-
+let favoriteCharacter = input.question("Who is your favorite character? ");
 // TODO: Print a response to the user that includes their input
+console.log(favoriteCharacter + "? That's my favorite character too!");
 
 // TODO: Ask the user for another name and store it in a variable
 
