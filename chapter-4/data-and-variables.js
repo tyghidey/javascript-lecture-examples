@@ -213,13 +213,15 @@ const input = require( 'readline-sync');
 console.log("Welcome to the fan club");
 
 // TODO: Ask the user for a name and store it in a variable
-let favoriteCharacter = input.question("Who is your favorite character? ");
+let favoriteCharacter = input.question("\nWho is your favorite character?\n\t");
 // TODO: Print a response to the user that includes their input
-console.log(favoriteCharacter + "? That's my favorite character too!");
+console.log("\n" + favoriteCharacter + "? That's my favorite character too!");
 
 // TODO: Ask the user for another name and store it in a variable
+let sixFiguredMan = input.question("\nPop quiz! Who is the Six-Fingered Man?\n\t");
 
 // TODO: Print a response to the user that includes their input
+console.log("\nThat is correct!");
 
 // TODO: Go back and clean up the output using special characters so it is easier to read in the console
 
