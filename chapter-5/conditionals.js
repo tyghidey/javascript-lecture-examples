@@ -7,6 +7,11 @@ console.log("\nThe Boolean Data Type");
 
 
 // TODO: Initialize a few booleans, then print them
+let hasFluxCapacitor = true;
+let hasPowerSource = false;
+
+console.log(hasFluxCapacitor);
+console.log(hasPowerSource);
 
 
 /** OTHER TYPES CONVERTED TO BOOLEAN **/
@@ -19,27 +24,36 @@ let jigawattsNeeded = 1.21; // truthy
 let mphAtStart = 0; // falsy
 
 
+console.log(Boolean(scientist));
+console.log(Boolean(speechless));
+console.log(Boolean(jigawattsNeeded));
+console.log(Boolean(mphAtStart));
+
 /* EVALUATING BOOLEAN EXPRESSIONS */
 console.log("\nEvaluating Boolean Expressions");
 
 // TODO: Write boolean expressions and print them to see its return value
-
+console.log("Calvin" + "Klein" == "Calvin Klein");
+console.log(true != 0);
 
 // TODO: Check to see if the current speed is high enough for time travel, storing it in the fastEnough variable, then print it
 let currentSpeed = 65;
 let timeTravelSpeed = 88;
 
-let fastEnough;
-
+let fastEnough = currentSpeed >= timeTravelSpeed;
+console.log(fastEnough);
 
 /** LOOSE EQUALITY VS STRICT EQUALITY **/
 console.log("\nLoose Equality vs Strict Equality");
 
 // TODO: Compare "8.0" and 8 using both types of equality and print result
+console.log("8.0" == 8);
+console.log("8.0" === 8);
 
 
 // TODO: Compare false and 0 using both types of inequality and print result
-
+console.log(0 != false); //loose
+console.log(0 !== false); //strict
 
 /** LOGICAL OPERATORS **/
 console.log("\nLogical Operators");
@@ -50,13 +64,15 @@ let expression2 = 1955 <= 1985;
 let expression3 = 10.04 == "10:04";
 
 // TODO: Use the logical AND operator to determine if all three expressions are true, and print the result
+console.log(expression1 && expression2 && expression3);
 
 // TODO: Use the logical OR operator to determine if either expression2 or expression3 is true, and print the result
-
+console.log(expression2 || expression3);
 // TODO: Use the logical NOT operator to print the opposite value of expression2
-
+console.log(!expression2);
 // TODO: Use parentheses to print the opposite of expression1 AND expression3
-
+console.log(!(expression1 && expression3))
+console.log(expression3);
 
 /** CONDITIONAL STATEMENTS **/
 console.log("\nConditional Statements");
