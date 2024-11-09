@@ -82,6 +82,11 @@ let hasPlutonium = false;
 // TODO: Write an IF statement that prints a message if the DeLorean is fully equipped for time travel in 1985
 // TODO: Add an ELSE statement that will print a different message if it's not ready
 
+if (hasPlutonium) {
+    console.log("\nThe flux capacitor is powered up and the DeLorean is ready to go")
+} else {
+    console.log("\nThe DeLorean won't travel without fuel");
+}
 
 // TODO: Write a series of IF/ELSE statements to determine which year the DeLorean will travel to.
 
@@ -90,11 +95,32 @@ let hasBananaPeels = true;
 
 let destinationYear;
 
+if(hasPlutonium) {
+    destinationYear = 1955;
+} else if (cableElectrified) {
+    destinationYear = 1985;
+} else if (hasBananaPeels) {
+    destinationYear = 2015;
+}
 
 // TODO: If the destination year has been set, print a statement that includes it. Otherwise, print some other statement that says they're not going anywhere (anytime?). Hint: remember what we learned about what happens when conditions are not booleans;
 
-
+if (destinationYear) {
+    console.log("\nReady to go? You're headed to the year " + destinationYear + "!");
+} else {
+console.log("\nNo destination date has been set. Do you have the materials you need to power the flux capacitor?");
+}
 // TODO: Use nested conditionals to print three different statements — one if the car is going 88 MPH, one if it's lower than 88 MPH, and one if the car didn't start in the first place
 
 let carHasStarted = true;
 let speed = 72;
+
+if (carHasStarted) {
+    if (speed === 88) {
+        console.log("\n I'm goig back to the furue!");
+    } else {
+        console.log("\nI'm not going quite fast enough yet.")
+    }
+} else {
+    console.log("\nGreat Scott! The starter has gone out again!");
+}
