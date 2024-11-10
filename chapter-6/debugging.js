@@ -10,8 +10,8 @@ console.log("\nDebugging");
 
 let hadFirstKiss = true;
 
-// if ("hadFirstKiss") {
-// 	console.log("\nMarty McFly lives! He will not fade from existence.);
-// } else 
-// 	console.log("\nOh no! George and Lorraine didn't fall in love, and Marty McFly will never be born.");
-// }
+if (hadFirstKiss) { // logic error (this line is a string instead of Boolean)
+	console.log("\nMarty McFly lives! He will not fade from existence.");
+} else {
+	console.log("\nOh no! George and Lorraine didn't fall in love, and Marty McFly will never be born.");
+}
