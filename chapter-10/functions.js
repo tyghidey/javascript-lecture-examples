@@ -5,19 +5,29 @@
 const input = require('readline-sync');
 
 // TODO: After defining the function below, call it here
+sayHello("Terri");
 
 // TODO: Define a function to say hello
-
+function sayHello(firstName) {
+    console.log(`Hello, ${firstName}`);
+}
 
 // TODO: Write a function that returns a string that will describe one or more enemies
 // Allow for a specific action verb
-
+function describeEnemies(enemyType, numEnemies, actionVerb) {
+    if (numEnemies > 1) {
+        enemyType = `group of ${numEnemies} ${enemyType}s`;
+    }
+    return `A ${enemyType} is ${actionVerb} nearby`;
+}
 
 // TODO :Call describeEnemies with real values (arguments) and print the return value
-
+console.log(describeEnemies("goblin", 1, "snarling"));
+console.log(describeEnemies("techtite", 3, "hopping around"));
 
 // TODO: Store a description in a variable and then print it
-
+let octoDesc = describeEnemies("octorock", 4, "spitting rocks");
+console.log(octoDesc);
 
 
 let inventory = [];
