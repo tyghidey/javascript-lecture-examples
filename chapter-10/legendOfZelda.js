@@ -27,12 +27,29 @@ let shopMsg = `"Buy somethin' will ya!"
 
 // Define a function to print a description of Hyrule. It does not need any input and will not return a value.
 
+function describeHyrule () {
+  console.log(`It's 1986, and the kingdom of Hyrule is in chaos. The evil prince of darkness, Ganon, has stolen the Triforce of Power and is holding Princess Zelda captive in Death Mountain.
+
+    Link, you must gather the 8 pieces of the Triforce of Wisdom, defeat Ganon, and rescue the Princess! Only then can order be restored to Hyrule.
+`);
+}
 
 // Define a function that takes two parameters, char and message, and returns a string with the character saying the message to Link when he enters an occupied cave or secret room.
 
+function getCharResponse (char, msg) {
+  return `
+  ${line}
+  Link sees ${char} standing before him, saying, ${msg}
+  ${line}
+  `;
+}
 
 // Define a function that adds an item to inventory and also prints a string that announces it.
 
+function addItemToInventory (item) {
+  inventory.push(item);
+  console.log(`Link now has a ${item}`);
+}
 
 // Define a function called dodgeEnemy() that takes two parameters, enemyType and numEnemies, which will determine if Link loses any hearts while trying to avoid them
 
@@ -50,29 +67,31 @@ let shopMsg = `"Buy somethin' will ya!"
 
 // Reduce repetition in two other places below by creating a new function that handles the decision to enter a cave or not. Consider what parameters it will require and which might be optional.
 
+function enterCaveOrSkip (char, msg, newItem = " ") {
+  let response1 = input.question("Would you like Link to enter? Y or N\n");
+  if (response1.toUpperCase() === "Y") {
+    console.log(getCharResponse(char, msg));
+    if (newItem) {
+      addItemToInventory(newItem);
+  }
+}
 
+// if (response1.toUpperCase() === "Y") {
+//   inventory.push(item);
+//   console.log(`Link now has a ${item}!`); 
+// }
 
 /** MAIN FUNCTION **/
 
 function runProgram() {
 
-  console.log(`It's 1986, and the kingdom of Hyrule is in chaos. The evil prince of darkness, Ganon, has stolen the Triforce of Power and is holding Princess Zelda captive in Death Mountain.
+  describeHyrule ();
 
-Link, you must gather the 8 pieces of the Triforce of Wisdom, defeat Ganon, and rescue the Princess! Only then can order be restored to Hyrule.
-`);
-  
   console.log("\nLink sees a cave opening in front of him.\n");
   
-  let response1 = input.question("Would you like Link to enter? Y or N\n");
-	if (response1.toUpperCase() === "Y") {
-		console.log(`
-    --------------------------------------------------------------------------------
-    Link sees ${char} standing before him, saying, ${msg}
-    --------------------------------------------------------------------------------
-    `);
-		inventory.push(item);
-	  console.log(`Link now has a ${item}!`); 
-	}
+  enterCaveOrSkip("an old man", swordMsg, "sword");
+	
+  
   
   console.log("\nLink walks west and sees four tektites hopping around.\n");
   
@@ -115,7 +134,7 @@ Link, you must gather the 8 pieces of the Triforce of Wisdom, defeat Ganon, and 
   console.log("\nLink heads north and sees another cave opening. But four octoroks are coming at him quickly!\n");
   
   // Ask the user if they want to fight the octoroks. 
-  
+  enterCaveOrSkip("the shop owner", shopMsg)
   // console.log("\nLink considers heading into the cave.\n");
   
   // Ask the user if Link should go in the 2nd cave

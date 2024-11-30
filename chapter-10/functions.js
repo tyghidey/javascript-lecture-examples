@@ -79,4 +79,4 @@ announceCharacter(name);
 announceCharacter("Ganon");
 
 // TODO: Print the variable name
-console.log(name);
+console.log(name);1
